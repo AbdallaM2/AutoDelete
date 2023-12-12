@@ -1,6 +1,8 @@
-pyrogram
+pyrogram>=2.0.30
 tgcrypto
 requests
-gunicorn
+gunicorn==21.2.0
 pymongo[srv]
-flask[async] 
+flask[srv]
+datetime
+umongo==3.0.1
